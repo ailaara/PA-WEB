@@ -2,7 +2,7 @@
 require("../../utils/auth-admin.php");
 require "../../database/connect.php";
 
-// Untuk button jadikan member
+// hhh Untuk button jadikan member
 if (isset($_GET['status'])) {
     $email = $_GET['email'];
     if ($_GET['status'] == 'Diterima') {
